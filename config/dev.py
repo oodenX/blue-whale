@@ -45,14 +45,14 @@ DEBUG = True
 
 # 本地开发数据库设置
 # USE FOLLOWING SQL TO CREATE THE DATABASE NAMED APP_CODE
-# SQL: CREATE DATABASE `{{ app_code }}` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; # noqa: E501
+# SQL: CREATE DATABASE `bk_demo` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; # noqa: E501
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": APP_CODE,  # noqa
-        "USER": "root",
-        "PASSWORD": "",
-        "HOST": "localhost",
+        "NAME": "ayanami",  # noqa
+        "USER": "Alphaoo",
+        "PASSWORD": "alphaoo",
+        "HOST": "192.168.199.128",
         "PORT": "3306",
     },
 }
